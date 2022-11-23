@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    box-sizing: border-boxs;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html,body{
+    height: 100vh;
+}
+
+.arrow{
+    position: absolute;
+    top: 90%;
+    text-align: center;
+    animation: arrow 2s alternate infinite;
+}
+.arrow img{
+    width: 20px;
+}
+
+div.infinte{
+    background-color: #4EF29A;
+    height: 100vh;
+    text-align: center;
+}
+.home, .btn{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home h2{
+    font-size: 30px;
+    
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+@keyframes arrow {
+    0%{
+        top: 90%;
+        
+    }
+    100%{
+        top: 92%;
+    }
+}
